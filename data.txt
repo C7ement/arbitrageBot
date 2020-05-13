@@ -1,0 +1,38 @@
+
+Balance :
+         0.00321594 BTC
+         0.07528168 ETH
+         9.97996907 USDC
+         10.01419629 USDT
+         0.45831185 XMR
+^C
+$: node  app.js
+Balance :
+         0.00321594 BTC
+         0.07528168 ETH
+         9.97996907 USDC
+         10.01419629 USDT
+         0.45831185 XMR
+
+
+get.balance BTC_XRP buy
+BTC_XRP Entering into trade on poloniex
+BTC_XRP Order was placed on poloniex 0.00008962  amount 35.88417763891989 type buy
+data { orderNumber: '196384455081',
+  resultingTrades:
+   [ { amount: '35.88417763',
+       date: '2019-01-31 17:16:33',
+       rate: '0.00008960',
+       total: '0.00321522',
+       tradeID: '24275834',
+       type: 'buy' } ] }
+196384455081
+BTC_XRP Poloniex order were closed. n: 0
+USDT_XRP Entering into trade on poloniex
+USDT_XRP Order was placed on poloniex 0.31077125  amount 35.81240928364205 type sell
+data { orderNumber: '139591014382', resultingTrades: [] }
+139591014382
+USDT_XRP Poloniex order were closed. n: 0
+USDT_BTC Entering into trade on poloniex
+Error PoloTrade trade data { error: 'Not enough USDT.' }
+^C
