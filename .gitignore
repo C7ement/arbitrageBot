@@ -1,4 +1,3 @@
-markets/config.json
-webApp/config.json
 /node_modules/
 /.idea/
+/markets/config.json
