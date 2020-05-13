@@ -1,0 +1,17 @@
+{
+  "name": "arbbot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitfinex-api-node": "^2.0.4",
+    "node-fetch": "^2.6.0",
+    "nonce": "^1.0.4",
+    "poloniex-orderbook": "^3.2.0"
+  }
+}

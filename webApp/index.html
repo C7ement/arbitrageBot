@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arbitrage bot</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+
+    <script src="scripts/lib/utils/Iterable.js"></script>
+    <script src="scripts/lib/Sequences.js"></script>
+    <script src="scripts/lib/Time.js"></script>
+    <script src="scripts/lib/Graph.js"></script>
+    <script src="scripts/lib/OrderBook.js"></script>
+    <script src="scripts/lib/OrderBookChasles.js"></script>
+    <script src="scripts/lib/DOM/SVG.js"></script>
+    <script src="scripts/lib/DOM/HTML.js"></script>
+
+    <script type="text/javascript" src="scripts/script.js"></script>
+</head>
+
+<body>
+<div class="flex">
+    <div id="sequence-data-wrapper" class="flex column">
+    </div>
+    <div id="graph-wrapper">
+    </div>
+    <div id="data"></div>
+</div>
+
+
+</body>
+
+</html>
+
+<style>
+    html {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .flex {display: flex;}
+    .column {flex-direction: column;}
+
+    .graph .labels.x-labels {
+        text-anchor: middle;
+    }
+
+    .graph .labels.y-labels {
+        text-anchor: end;
+    }
+
+
+
+    .graph .grid {
+        stroke: #ccc;
+        stroke-dasharray: 0;
+        stroke-width: 1;
+    }
+
+    .labels {
+        font-size: 12px; <!-- linked to x offset of labels in grpah.js -->
+    }
+
+    .label-title, .title{
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12px;
+        fill: black;
+    }
+
+    .data {
+        stroke-width: 1;
+    }
+    .data .bid {
+        fill: green;
+    }
+    .data .ask {
+        fill: red;
+    }
+</style>
